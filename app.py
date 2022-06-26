@@ -317,6 +317,7 @@ def search():
   rqstype = request.args.get('request_type', None)
   query = str(request.args.get('query, None'))
   chatfuel_user_id = str(request.args.get('chatfuel_user_id', None))
+  add_user(chatfuel_user_id)
 
   if rqstype == 'search_on_google' and query:
     print("search_on_google has been triggered")

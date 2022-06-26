@@ -1,7 +1,7 @@
 from multiprocessing.sharedctypes import Value
 import os
 import json
-from flask import Flask, request
+from flask import Flask, request, redirect
 from newspaper import Article, Config
 import requests
 from bs4 import BeautifulSoup
@@ -15,6 +15,7 @@ from pprint import pprint
 cw_link = os.environ.get('cw_link', None)
 gg_custom_search_api_key = os.environ.get('gg_custom_search_api_key', None)
 gg_custom_search_engine_id = os.environ.get('gg_custom_search_engine_id', None)
+app_homepage_url = os.environ.get('app_homepage_url', 'https://lonewanderer27.github.io/web-browser-botseu/')
 
 # NEWSPAPER CONFIG
 user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:10.0) Gecko/20100101 Firefox/10.0'
@@ -305,7 +306,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-  return 'Web Browser Botseu'
+  return redirect(app_homepage_url)
 
 
 @app.route('/search/')

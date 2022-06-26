@@ -36,6 +36,26 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
+  - title                                 : Lightning Fast
+    description                           : In a blink of an eye, or tap, the bot already sent you the information you searched for.
+    fontawesome_icon_name                 : bolt
+    
+  - title                                 : Active 24/7
+    description                           : The bot never goes offline so you can search wherever and whenever you want.
+    fontawesome_icon_name                 : clock
+
+  - title                                 : Google Search
+    description                           : Search on the world's most popular search engine.
+    fontawesome_icon_name                 : mountain
+
+  - title                                 : DuckDuckGo Search
+    description                           : Search without losing your utmost privacy.
+    fontawesome_icon_name                 : mask
+
+  - title                                 : Distraction-Free
+    description                           : The bot filters out information you don't need, such as ads, so you can focus on reading your content.
+    fontawesome_icon_name                 : book-open
+
   - title                                 : # New Feature Title
     description                           : # New Feature Description
     fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.

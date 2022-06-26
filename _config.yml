@@ -11,23 +11,23 @@ presskit_download_link                    : https://emilbaehr.com               
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : Web Browser Botseu                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_description                           : Facebook-Messenger bot that enable users to search and read articles without a mobile data subscription.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
 
 # Information About Yourself
-your_name                                 : Emil Baehr                                
-your_link                                 : https://emilbaehr.com                     
-your_city                                 : Copenhagen                                
-email_address                             : emil.baehr@gmail.com
+your_name                                 : Adriane James                                
+your_link                                 : https://lonewanderer27.github.io                   
+your_city                                 : Makati City                                
+email_address                             : adrianejames27@gmail.com
 facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
+instagram_username                        : 
+twitter_username                          : ellewanderer27
+github_username                           : lonewanderer27
 youtube_username                          :
 
 

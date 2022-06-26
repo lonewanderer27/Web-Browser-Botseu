@@ -299,7 +299,10 @@ def get_article_text_from_gg_search_result_num(search_result_num, chatfuel_user_
   return article_text
 
 
-
+# DO CHECKS BEFORE ALLOWING THE APP TO RUN !!!
+verify_environ_variables()
+initialize_database()
+check_database(replit_db)
 
 app = Flask(__name__)
 

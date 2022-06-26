@@ -8,7 +8,7 @@ ios_app_country                           : us                                  
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
 facebook_page_link                         : https://www.facebook.com/Web-Browser-Botseu-100178915906549
-presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    : # https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
@@ -22,13 +22,13 @@ enable_smart_app_banner                   : true                                
 
 # Information About Yourself
 your_name                                 : Adriane James                                
-your_link                                 : https://lonewanderer27.github.io/web-browser-botseu                  
+your_link                                 : https://lonewanderer27.github.io/                
 your_city                                 :                                 
 email_address                             :
-facebook_username                         :                                           
+facebook_username                         : jayayayayay                                          
 instagram_username                        : 
 twitter_username                          : 
-github_username                           : 
+github_username                           : lonewanderer27
 youtube_username                          :
 
 
@@ -127,3 +127,6 @@ collections:
 markdown: kramdown
 
 destination: docs/
+
+exclude:
+  - _pages/changelog.md

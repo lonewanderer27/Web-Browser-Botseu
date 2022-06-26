@@ -10,6 +10,7 @@ from duckduckgo_search import ddg
 import textwrap
 from pprint import pprint
 
+
 # ENVIRON VARIABLES
 cw_link = os.environ.get('cw_link', None)
 gg_custom_search_api_key = os.environ.get('gg_custom_search_api_key', None)

@@ -125,12 +125,9 @@ def init_db() -> None:
         db['users'] = {}
 
 def user_exists(user_id) -> bool:
-    try:
-        if user_id in db['users']:
-            return True
-        else:
-            return False
-    except KeyError: 
+    if user_id in db['users']:
+        return True
+    else:
         return False
 
 def add_user(user_id) -> None:
@@ -193,8 +190,11 @@ def get_article_text_from_ddg_search_result(search_result: int, user_id):
     return get_article_text(get_article(url))
 
 
-app = Flask(__name__)
+# Checks are placed here since Vercel executes `flask run`
+verify_environ_vars()
+init_db()
 
+app = Flask(__name__)
 
 @app.route('/')
 def index():

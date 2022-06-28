@@ -234,8 +234,8 @@ def search():
 
     add_user(user_id)
 
-    if rqst == 'search_on_ddg':
-        print('search_on_ddg triggered')
+    if rqst == 'search_ddg':
+        print('search_ddg triggered')
 
         result = search_ddg(query)
         print(f'result: {result}')

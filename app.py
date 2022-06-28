@@ -125,9 +125,12 @@ def init_db() -> None:
         db['users'] = {}
 
 def user_exists(user_id) -> bool:
-    if user_id in db['users']:
-        return True
-    else:
+    try:
+        if user_id in db['users']:
+            return True
+        else:
+            return False
+    except KeyError: 
         return False
 
 def add_user(user_id) -> None:

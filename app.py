@@ -121,7 +121,7 @@ def init_db() -> None:
         print('DB already initialized, continuing')
     else:
         print('DB not ready')
-        print('init DB')
+        print('init DB') 
         db['users'] = {}
 
 def user_exists(user_id) -> bool:
